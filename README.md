@@ -262,7 +262,7 @@ OPENROUTER_API_KEY=YOUR_API_KEY
 Run AI service:
 
 ```bash
-uvicorn main:app --reload --port 8000
+python -m uvicorn main:app --reload --port 8000
 ```
 
 Expected output:
